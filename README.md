@@ -101,6 +101,13 @@ protocol ospf {
 
 save 
 
+Check the syntax 
+```
+add sudo bird -p
+and sudo dhcpd -t
+```
+
+Enable the service
 ```
 sudo systemctl enable dhcpd
 sudo systemctl start dhcpd

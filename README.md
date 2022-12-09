@@ -1,6 +1,7 @@
 # Net Configuration for Enterprise Networking Final
 ## Part A
 
+*note, almost everything was done in r2. also enable adapter 3 for r2, so make sure you read the question and see what he wants*
 Step 1. Make sure r2 is powered off.
 - go into settings for r1, go into network, go to adapter 3, enable it, choose internal network, name it "grp4_0" (whatever he has on his sheet).
 - click advanced, under adapter type: choose paravirtualized Network, choose allow all for promiscuous mode, MAC address can stay whatever you currently have
